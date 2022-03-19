@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Steps Converter</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="tittle">Steps Converter App</h2>
+        <h3 id="info">Enter steps and Hit Calculate</h3>
+        <p class="input">Steps</p>
+        <input type="number" onfocus="this.value='' " id="steps">
+        <div class="loader">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <p id="km"></p>
+        <p id="calories"></p>
+
+        <button id="btn" class="calculate">calculate</button>
+        <button id="btn" class="clear">clear</button>
+        <br>
+        <br>
+        <footer class="footer">
+            <h5>Inspired by McDonalds and COVID19!</h5>
+            <h5>steps Converter &copy;</h5>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
